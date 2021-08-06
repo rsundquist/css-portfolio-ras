@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: lightsteelblue;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 
 .container {
     
-    height: 700px;
+    height: 500px;
     width: 100%;
     margin: 5px;
 }
