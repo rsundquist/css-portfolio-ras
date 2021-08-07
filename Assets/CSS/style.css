@@ -18,7 +18,7 @@ h1 {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .header h1 .quis {
@@ -30,7 +30,7 @@ h1 {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .header div ul {
@@ -52,10 +52,10 @@ h1 {
 
 .paragraph {
     color: white;
-    padding: 3px;
+    padding: 6px;
     display: inline-block;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 22px;
     border-style: double;
 }
 
