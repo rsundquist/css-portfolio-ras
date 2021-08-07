@@ -47,6 +47,7 @@ h1 {
     height: 500px;
     width: 100%;
     margin: 5px;
+    font-size: 20px;
 }
 
 .paragraph {
@@ -54,13 +55,27 @@ h1 {
     padding: 3px;
     display: inline-block;
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 20px;
+    border-style: double;
 }
 
-a.picture {
-    width: 200px;
-    height: 180px;
+img {
+    width: 400px;
+    height: 250px;
     display: inline-block;
     overflow: hidden;
+    
+}
+
+@media print {
+    body {
+        color: white;
+    }
+}
+
+@media screen {
+    body {
+        color: lightskyblue;
+    }
     
 }
