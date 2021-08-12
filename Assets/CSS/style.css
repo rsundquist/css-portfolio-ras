@@ -25,6 +25,13 @@ h1 {
     color: #d9dcd6;
 }
 
+.image {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    overflow: hidden; 
+}
+
 .header div {
     padding-top: 15px;
     margin-right: 20px;
