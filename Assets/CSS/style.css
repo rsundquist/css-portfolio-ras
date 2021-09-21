@@ -12,7 +12,7 @@ h1 {
 .header {
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("codingBackground.jpg");
+    background-color: #216283;
     color: #ffffff;
     padding-right: 15px;
 }
