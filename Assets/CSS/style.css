@@ -78,9 +78,10 @@ h1 {
     margin-left: 20px;
     font-size: 22px;
     border-style: double;
-    /* border-radius: inherit; */
+    /* border:initial; */
     display: flex;
     flex-direction: column;
+    
 }
 
 .a:link {
@@ -108,7 +109,7 @@ h1 {
 
     .header h1 {
         display: inline-block;
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .header h1 .quis {
@@ -116,7 +117,7 @@ h1 {
     }
     
     .header img {
-        width: 20px;
+        width: 30px;
         height:auto
     }
 
@@ -125,7 +126,7 @@ h1 {
         margin-right: 5px;
         float: right;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 10px;
+        font-size: 12px;
     }
     
     .header nav ul {

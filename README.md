@@ -8,4 +8,4 @@
  - https://rsundquist.github.io/css-portfolio-ras/
 
 
-!['Screenshot'](Assets/Images/PortfolioScreenshot.png "Portfolio")
+!['Screenshot'](Assets/Images/portfolioScreenshot.png "Portfolio")
