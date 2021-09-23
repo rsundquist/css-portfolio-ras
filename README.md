@@ -9,4 +9,3 @@
 
 
 !['Screenshot'](Assets/Images/portfolioScreenshot.png "Portfolio")
-!['Screenshot'](Assets/Images/portfolioScreenshot.png "Screenshot")

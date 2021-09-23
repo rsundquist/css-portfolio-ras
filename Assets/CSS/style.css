@@ -1,4 +1,7 @@
 body {
+    background-image: url("../Images/codingBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: steelblue;
     font-size: 15px;
 }
