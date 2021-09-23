@@ -6,18 +6,15 @@ body {
     font-size: 15px;
 }
 
-/* body:: {
-    content:""; */
-    
-}
-/* 
 h1 {
-    text-align: left;
+    /* text-align: left; */
     font-size: 20px;
     font-weight: bold;
-} */
+}
 
-
+.Source-Title {
+    color: white
+}
 
 .header {
     /* padding: 5px; */
@@ -61,132 +58,27 @@ h1 {
     background-color: #216283 ;
 }
 
-/* .header nav ul {
-    list-style-type: none;
-} */
-
-/* .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-} */
-
-/* .container {
-    
-    height: 500px;
-    width: 100%;
-    margin: 5px;
-    font-size: 20px;
-    flex-direction: column;
-    flex-shrink: inherit;
-    -ms-flex-align: center; */
-}
-
 .h2 {
     font-size: 42px;
     color:white;
 }
 .paragraph {
     color: white;
-    /* padding: 6px;
-    display: inline-block; */
-    /* margin-left: 20px; */
     font-size: 22px;
-    /* border-style: double;
-    border:initial;
-    display: flex;
-    flex-direction: column; */
 }
 
-
-.a:link {
-    color:greenyellow
+a {
+    color: greenyellow;
 }
 
-.a:visited {
-    color: red
+.blockquote-footer {
+    color:greenyellow;
 }
 
-.a:active {
-    color:lawngreen
-}
-
-/* img {
-    width: 400px;
-    height: 250px;
-    display: inline-block;
-    overflow: hidden; */
-    
-}
-
-
-/* @media screen and (max-width: 480px) {
-
-    .header h1 {
-        display: inline-block;
-        font-size: 22px;
-    }
-    
-    .header h1 .quis {
-        color: #d9dcd6;
-    }
-    
+@media screen and (max-width: 480px) {
+ 
     .header img {
         width: 30px;
         height:auto
     }
-
-    .header nav {
-        padding-top: 5px;
-        margin-right: 5px;
-        float: right;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 12px;
-    }
-    
-    .header nav ul {
-        list-style-type: none;
-    }
-    
-    .header nav ul li {
-        display: inline-block;
-        margin-left: 5px;
-    }
-
-    .a:link {
-        color:greenyellow
-    }
-
-    .a:visited {
-        color: red
-    }
-
-    .a:active {
-        color:lawngreen
-    } */ 
-
-    /* article {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        column-gap: 20px;
-    }
-
-    nav ul {
-        display: flex;
-    }
-
-    nav li {
-        flex: 1;
-    }
-
-    nav  {
-        flex: 1;
-    }
-
-    nav h2 {
-        flex: 1;
-    }
- */
-
- }
-
-
+}
