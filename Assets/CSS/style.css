@@ -16,23 +16,33 @@ h1 {
 }
 
 .header {
-   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #216283;
     color: #ffffff;
-   
 }
 
 .header h1 {
     font-size: 60px;
 }
 
+.header h1 .quis {
+    color: #d9dcd6;
+}
 
+.header img {
+    width: 200px;
+    height:auto
+    padding-left 20px;
+}
+
+.picture img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden; 
+}
 
 .header nav {
-    /* padding-top: 5px; */
-    /* margin-right: 20px;
-    float: right; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
@@ -42,7 +52,8 @@ h1 {
 }
 
 .h2 {
-	@@ -64,21 +76,106 @@ h1 {
+    font-size: 42px;
+    color:white;
 }
 .paragraph {
     color: white;
@@ -58,7 +69,7 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-
+ 
     .header img {
         width: 30px;
         height:auto
