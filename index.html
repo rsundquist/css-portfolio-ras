@@ -9,61 +9,90 @@
     
     <title>Sundquist Portfolio</title>
 </head>
-<body>
-<header class="header">
-    <h1>Sund<span class="quis">quis</span>t</h1>
-    <img src="./Assets/Images/Universal1.jpg" alt="Profile Pic">
-    <nav>
-        <ul>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
-        </ul>
+    <nav class="d-grid gap-2 d-md-block p-2 m-4">
+        <header class="border border-primary flex-1 d-flex flex-row justify-content-evenly align-content-center p-2 m-4">
+        <figure class="header p-2 m-4">
+            <blockquote class="blockquote">
+            <h1>Sund<span class="quis">quis</span>t</h1>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Junior Web <cite title="Source Title">Developer</cite>
+            </figcaption>
+          </figure>
+        
+        <img src="./Assets/Images/Universal1.jpg" alt="Profile Pic">
+        <nav class="d-grid gap-2 d-md-block p-2 m-4">
+            <a href="#about-me" class="btn btn-primary" role="button">About Me</a>
+            <a href="#work"class="btn btn-primary"role="button">Work</a>
+            <a href="#contact-me"class="btn btn-primary"role="button">Contact Me</a>
+            <a href="#resume"class="btn btn-primary"role="button">Resume</a>
+            
+        </nav>
     </nav>
-</header>
-<div class="container"  id="about-me">
-    <h2>About Me</h2>
-    <p class="paragraph">
-        I am married with 2 teenage boys.  I currently work as a Financial Service Rep at a credit union.  I enjoy watching and playing various sports, attending live concerts, and working on computers.
+    </header> 
+    <body>
+        <div class=" section border border-primary d-flex flex-1 flex-column p-2 m-4"  id="about-me">
+            <h2>About Me</h2>
+            <p class="paragraph">
+                I am married with 2 teenage boys. I currently work as a Financial Service Rep at a credit union. I enjoy watching and playing various sports, attending live concerts, and working on computers.
+            </p>
+        </div>
+            
+            <div class="row row-cols-1 row-cols-md-2 g-4 d-grid justify-content-between align-content-center p-2 m-4">
+            <h2>Work</h2>
+            <div class="column p-2 m-4">
+            <div class="card border border-primary" style="width: 18rem;">
+                <a href="https://rsundquist.github.io/code-refractor-ras/"><img src="Assets/Images/codeRefractorScreenshot.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text .order-md-0">Code Refractor Project</p>
+                </div>
+                </div>
+              </div>
+            
+            <div class="column p-2 m-4">
+            <div class="card border border-primary" style="width: 18rem;">
+                <a href="https://rsundquist.github.io/weatherDashboard-ras/"> <img src="Assets/Images/WeatherDashboard.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text .order-md-1">Weather Dashboard Project</p>
+                </div>
+            </div>
+            </div>
+            <div class="column p-2 m-4">
+            <div class="card border border-primary" style="width: 18rem;">
+                <a href= "https://rsundquist.github.io/work-day-scheduler-ras/"><img src="Assets/Images/workday-scheduler-screenshot.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text .order-md-2">Work Day Scheduler Project</p>
+                </div>
+                </div>
+              </div>
+
+            <div class="column p-2 m-4">
+            <div class="card border border-primary" style="width: 18rem;">
+                <a href="https://rsundquist.github.io/event-finder/"> <img src="Assets/Images/EventFinder.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text .order-md-3">Event Finder Project </p>
+                </div>
+              </div>
+            </div>
+          </div>
         
-        <!-- <div class="picture">
-            <img src="Assets/Images/Detroit-sports-M-State-2.jpg" alt="Sports"/>   
-        </div> -->
-        
-    </p>
-</div>
-
-<div class="container" id="work">
-    <h2>Work</h2>
-    <p class="paragraph"> Code Refractor Project: <a href="https://github.com/rsundquist/code-refractor-ras.git"> Code Refractor</a></p>
-    <p class="paragraph"> Weather Dashboard Project: <a href="https://rsundquist.github.io/weatherDashboard-ras/">Weather Dashboard</a></p>
-    <p class="paragraph"> Work Day Scheduler Project: <a href= "https://rsundquist.github.io/work-day-scheduler-ras/"> Work Day Scheduler</a></p>
-    <p class="paragraph"> Event Finder Project: <a href="https://rsundquist.github.io/event-finder/"> Event Finder</a></p>
-</div>
-<div class="container" id="contact-me">
-    <h2>Contact Me</h2>
-    <p class="paragraph"> Phone Number: 555-555-5555 </p>
-    <p class="paragraph"> Linkedin: <a href=https://www.linkedin.com/in/rebecca-sundquist-984756217>Rebecca Sundquist</a>
-    </p>
-    <p class="paragraph"> github: <a href="https://github.com/rsundquist">github</a> </p>
-</div>
-
-<div class="container" id="resume">
-    <h2>Resume</h2>
-    <p class="paragraph"> Resume: <a href=Assets\BeckyResume.pdf>Resume</a> 
-    </p>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-</body>
+        <div class="row">
+        <div class="column col-6">
+        <div class=" section border border-primary d-flex flex-1 flex-column p-2 m-4" id="contact-me">
+            <h2>Contact Me</h2>
+            <p class="paragraph"> Phone Number: 555-555-5555 </p>
+            <p class="paragraph"> Linkedin: <a href=https://www.linkedin.com/in/rebecca-sundquist-984756217>Rebecca Sundquist</a>
+            </p>
+            <p class="paragraph"> github: <a href="https://github.com/rsundquist">github</a> </p>
+        </div>
+    </div>
+        <div class="column col-6">
+        <div class=" section border border-primary d-flex flex-1 flex-column p-2 m-4" id="resume">
+            <h2>Resume</h2>
+            <p class="paragraph"> Resume: <a href=Assets\BeckyResume.pdf>Resume</a> 
+            </p>
+        </div>
+    </div> 
+    </div>
+    </body>
 </html>
